@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    border: 0;
+}
+
+body {
+    font-family: 'Open Sans';
+    line-height: 1.65;
+    font-size: 1.2rem;
+    color: #393d41;
+}
+
+header {
+    background-color: black;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    width: 250px;
+
+}
+
+h1,
+h3 {
+    color: #25a2c3;
+    line-height: 1.5;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.title-anchor {
+    text-align: center;
+    padding: 30px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+}
+
+.title-anchor p {
+    margin-bottom: 20px;
+}
+
+.anchor-section button {
+    background-color: #f04c2f;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.anchor-section button a {
+    text-decoration: none;
+    color: white;
+}
+
+.description {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.description-item {
+    text-align: center;
+    padding: 30px;
+
+}
+
+.circle-image img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+    width: 300px;
+    padding: 10px;
+}
+
+.testimony {
+    background-color: #e22d0e;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 10px;
+}
+
+.testimony blockquote p:last-child {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.card {
+    border: 1px solid #dee1e3;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.card-image img {
+    width: 100%;
+}
+
+.card-list {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-text {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #25a2c3;
+    color: white;
+    padding: 20px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info-link a {
+    display: block;
+    color: white;
+}
+
+.info-link a:last-child {
+    text-decoration: none;
+}
+
+.credits a {
+    color: white;
+}
+
+.credits {
+    border-top: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+    padding: 20px;
+    font-size: 15px;
+}
+i {
+    margin: 5px;
+}
+
