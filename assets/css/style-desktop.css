@@ -21,10 +21,7 @@ header {
 }
 
 .logo img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 40px;
+    padding: 30px;
     width: 250px;
 
 }
@@ -32,10 +29,19 @@ header {
 h1,
 h3 {
     color: #25a2c3;
-    line-height: 1;
+    line-height: 1.5;
     font-family: 'Montserrat';
     font-weight: bold;
-    margin-bottom: 10px;
+}
+
+.anchor-section {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    padding: 100px;
+}
+
+.anchor-box {
+    padding: 80px;
 }
 
 .title-anchor {
@@ -43,68 +49,63 @@ h3 {
     padding: 30px;
 }
 
-
-
 .title-anchor p {
-    padding: 10px;
-    margin-bottom: 15px;
-    font-size: 18px;
-}
-
-.anchor-section {
-    background-image: url(../img/banner.jpg);
-    background-size: cover;
-
+    margin-bottom: 20px;
+    margin-top: 5px;
 }
 
 .anchor-section .button {
     background-color: #f04c2f;
     font-family: 'Montserrat';
     font-weight: bold;
-    font-size: 12px;
+    padding: 10px;
     border-radius: 4px;
     margin-bottom: 10px;
+}
+
+.anchor-section .button {
     text-decoration: none;
     color: white;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
 .description {
     margin-bottom: 20px;
     margin-top: 20px;
+    padding: 60PX;
 }
+
+.description-box {
+    padding: 60px;
+}
+
 .description-item {
-    text-align: center;
-    padding: 30px;
+    margin-bottom: 10px;
+}
+.circle-image {
+    display: inline-block;
+    width: 55%;
+}
+
+.description-list {
+    display: inline-block;
+    width: 44%;
 }
 
 .circle-image img {
+    border-radius: 50%;
+    width: 400px;
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    border-radius: 50%;
-    width: 300px;
-    padding: 10px;
 }
 
 .testimony {
     background-color: #e22d0e;
     color: white;
     text-align: center;
-    padding: 40px;
+    padding: 60px;
     margin-bottom: 10px;
-    
-}
-
-blockquote cite {
-    font-size: 15px;
-}
-
-.cite-name {
-    margin-top: 13px;
 }
 
 .testimony blockquote p:last-child {
@@ -116,14 +117,23 @@ blockquote cite {
     border: 1px solid #dee1e3;
     border-radius: 5px;
     margin-bottom: 30px;
+    display: inline-block;
+    width: 30%;
+}
+
+.card:nth-child(2) {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .card-image img {
     width: 100%;
+    height: 200px;
 }
 
+
 .card-list {
-    padding: 20px;
+    padding: 100px;
     text-align: center;
 }
 
@@ -141,13 +151,25 @@ footer {
 
 #info {
     margin-bottom: 20px;
-    padding: 20px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#info h1 {
+    color: white;
+}
+
+.info-link {
+    text-align: left; 
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
 }
 
 .info-link a {
     display: block;
     color: white;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .info-link a:last-child {
@@ -159,14 +181,10 @@ footer {
 }
 
 .credits {
-    border-top: 1px solid white;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline;
-    padding: 20px;
-    font-size: 15px;
+    font-size: 12px;
+    margin-top: 10px;
 }
+
 i {
     margin: 5px;
 }
-
